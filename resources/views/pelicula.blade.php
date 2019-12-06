@@ -1,0 +1,1 @@
+<p>La pelicula que vamos a ver es: {{ $titulo }}, la pelicula fue extrenada en {{ $year }}</p>
