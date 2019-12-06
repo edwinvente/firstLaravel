@@ -70,3 +70,6 @@ Route::group(['prefix'=>'frutas'], function(){
 });
 
 Route::get('/prueba', 'FrutaController@datosjs');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
