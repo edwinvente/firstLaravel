@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+header("Access-Control-Allow-Origin: *");
 
 class FrutaController extends Controller
 {
