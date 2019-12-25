@@ -73,3 +73,6 @@ Route::get('/prueba', 'FrutaController@datosjs');
 Auth::routes(); 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Ruta de somos creandola web
+Route::get('/SomosCreandola', 'WebController@index');

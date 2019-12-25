@@ -18,7 +18,7 @@
 			<header id="header">
 				<img src="{{ asset('images/02.png') }}" class="logoCreandola" alt="">
 				<p>Diseño y desarrollo de estrategias digitales a la medida, no esperes más <br> y potencializa tu negocio ahora mismo, tenemos descuentos especiales en octubre...<br />
-				Para conocer más de nosotros ve a nuestro <a href="{{ url('listado') }}">Sitio web</a>. </p>
+				Para conocer más de nosotros ve a nuestro <a href="{{ action('WebController@index') }}">Sitio web</a>. </p>
 			</header>
 
 		<!-- Signup Form -->
